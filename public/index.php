@@ -7,22 +7,22 @@ $action = $_GET['action'] ?? 'index';
 $id = $_GET['id'] ?? null;
 
 switch ($action) {
-    case 'create';
+    case 'create':
         $controller->create();
         break;
-    case 'store';
+    case 'store':
         $controller->store();
         break;
-    case 'edit';
+    case 'edit':
         $controller->edit($id);
         break;
-    case 'update';
+    case 'update':
         $controller->update($id);
         break;
-    case 'delete';
+    case 'delete':
         $controller->delete($id);
         break;
-    default;
+    default:
         $controller->index();
         break;
 }
