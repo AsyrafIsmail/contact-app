@@ -11,7 +11,7 @@ class ContactController{
     // List all contacts
     public function index() {
         $contacts = $this->contactModel->getAllContacts();
-        include __DIR__ . '/../views/contacts/index.php';
+        include __DIR__ . '/../views/contacts/list.php';
     }
 
     // Show form for new contact

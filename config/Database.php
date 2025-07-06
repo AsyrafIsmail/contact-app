@@ -1,10 +1,5 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
-use PDO;
-use PDOException;
-
 class Database {
     private $host = "localhost";
     private $dbname = "contact_db";
