@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 2em;
+    background: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+a.button {
+    display: inline-block;
+    padding: 0.4em 1em;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a.button:hover {
+    background: #0056b3;
+}
